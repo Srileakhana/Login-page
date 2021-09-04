@@ -1,0 +1,191 @@
+body
+{
+    background-color: white;
+}
+.heading
+{
+    margin-left: 425px;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+}
+form
+{
+    width:400px;
+    background-color: white;
+    padding:24px;
+    margin-left: 400px;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.input-item{
+    
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    padding: 8px;
+    box-sizing:border-box;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 0;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.input-item:focus
+{
+    background-color: lightblue;
+}
+.input-item:focus:required
+{
+    background-color: rgba(225, 0,0, 0.1);
+}
+.Button
+{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    padding: 8px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+
+    background: linear-gradient(93.58deg, #4960F9 0%, #1433FF 98.59%);
+box-shadow: 0px 8px 16px rgba(27, 57, 255, 0.2);
+border-radius: 28px;
+}
+.c1
+{position: absolute;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+left: -75px;
+top: -75px;
+background: linear-gradient(180deg, #5264F9 0%, #3AF9EF 100%);
+transform: rotate(-46.26deg);
+  
+}
+.c2
+{position: absolute;
+width: 385px;
+height: 385px;
+border-radius: 50%;
+left: -100px;
+top: -150px;
+
+background: linear-gradient(180deg, rgba(198, 48, 248, 0.12) 0%, #2F56F8 100%);
+transform: rotate(47.9deg);
+}
+.c3
+{ position: absolute;
+width: 400px;
+height: 400px;
+border-radius: 50%;
+left: -160px;
+top: -90px;
+
+background: linear-gradient(180deg, rgba(198, 48, 248, 0.3) 0%, #C72FF8 100%);
+transform: rotate(70.66deg);
+
+}
+.circle1
+{
+position: absolute;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+left: 1050px;
+top: 300px;
+
+background: linear-gradient(180deg, rgba(198, 48, 248, 0.12) 0%, #2F56F8 100%);
+transform: matrix(-0.83, 0.56, 0.56, 0.83, 0, 0);
+animation: animate 10s linear infinite;
+animation-delay: calc(-1s * var(--i));
+}
+.circle2
+{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    left: 1160px;
+    top: 420px;
+    
+    background: linear-gradient(180deg, rgba(198, 48, 248, 0.3) 0%, #C72FF8 100%);
+    transform: matrix(-0.95, 0.32, 0.32, 0.95, 0, 0);
+    animation: animate 10s linear infinite;
+animation-delay: calc(-1s * var(--i));
+}
+.circle3
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 975px;
+    top: 475px;
+    
+    background: linear-gradient(180deg, #5264F9 0%, #3AF9EF 100%);
+    animation: animate 10s linear infinite;
+animation-delay: calc(-1s * var(--i));
+}
+.circle4
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 1075px;
+    top: 520px;
+    
+    background: linear-gradient(180deg, #c630f81f 0%, #2F56F8 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    animation: animate 10s linear infinite;
+animation-delay: calc(-1s * var(--i));
+}
+.circle5
+{
+    position: absolute;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+left: 1165px;
+top: 585px;
+
+background: linear-gradient(180deg, rgba(198, 48, 248, 0.3) 0%, #C72FF8 100%);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+animation: animate 10s linear infinite;
+animation-delay: calc(-1s * var(--i));
+}
+.circle6
+{
+    position: absolute;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+left: 1000px;
+top: 620px;
+
+background: linear-gradient(180deg, #5264F9 0%, #3AF9EF 100%);
+animation: animate 10s linear infinite;
+animation-delay: calc(-1s * var(--i));
+}
+@keyframes animate
+{
+0%,100%
+{
+transform: translateY(-40px);
+}
+50%
+{
+
+    transform: translateY(40px);
+}
+}
+
+
+    
+
